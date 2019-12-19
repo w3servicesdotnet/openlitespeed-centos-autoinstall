@@ -134,3 +134,6 @@ ln -s /usr/local/lsws/lsphp72/bin/lsphp /usr/bin/php
 
 systemctl enable proftpd
 systemctl enable mariadb
+
+# Fix Permission
+setenforce 0
